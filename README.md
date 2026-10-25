@@ -1,7 +1,22 @@
 # Library Management System
+## Problem Statement
+
 
 ## 📌 Project Overview
 
+System that manages books, members, borrowing, and returns. The system should follow object-oriented principles and ensure proper tracking of availability.
+Class Requirements: Book, Author, Member, PremiumMember, BorrowTransaction,ReturnTransaction, LibraryBusiness Rules:
+1. Books can only be borrowed if they are available in stock.
+2. When borrowed, stock reduces; when returned, stock updates.
+3. Premium members may borrow more books and for longer duration.
+4. Fines are applied for late returns.
+5. Borrowing and returning transactions must link directly to books.
+Menu Options: Add Book / Add Member / Borrow Book / Return Book / Display Available Books /
+Exit
+Expected Output:
+• Show borrow/return receipt.
+• Display updated stock after each transaction.
+• Show fines (if applicable).
 The **Library Management System** is a simple Java console-based application developed using Object-Oriented Programming (OOP) concepts. It helps manage books, library members, borrowing, and returning operations.
 
 The system tracks book availability, updates stock, generates transaction receipts, and calculates fines for late returns.
@@ -124,6 +139,7 @@ This version is intended as a simple console-based assignment. If the implementa
 ## 👨‍💻 Author
 
 **Nithishwaran R.**
+**717825Y135**
 
 ## 📄 License
 
